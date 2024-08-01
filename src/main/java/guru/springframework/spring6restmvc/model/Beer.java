@@ -1,5 +1,7 @@
 package guru.springframework.spring6restmvc.model;
 
+import lombok.Builder;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -7,7 +9,7 @@ import java.util.UUID;
 /*
  ** 2024, August 01, Thursday, 4:57 PM
  */
-
+@Builder
 public class Beer {
     private UUID id;
     private Integer version;
